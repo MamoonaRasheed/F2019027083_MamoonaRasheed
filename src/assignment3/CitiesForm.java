@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package assignment3;
 
 import java.sql.Connection;
@@ -10,10 +6,7 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
 
-/**
- *
- * @author Tajwar Shah
- */
+
 public class CitiesForm extends javax.swing.JFrame {
 
     /**
@@ -21,10 +14,10 @@ public class CitiesForm extends javax.swing.JFrame {
      */
     public CitiesForm() {
         initComponents();
-        Fillcombo();
+        Citynames();
     }
     
-    private void Fillcombo()
+    private void Citynames()
     {
         try{
       Connection conn;
